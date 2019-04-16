@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   #s.vendored_frameworks = 'TencentOpenAPI/*.{framework}'
   s.frameworks = "SystemConfiguration","Security","CoreTelephony","CFNetwork","CoreGraphics"
   s.vendored_library = 'WeChatSDK/libWeChatSDK.a'
+  s.libraries = 'sqlite3.0', 'z','c++'
   s.source_files = 'WeChatSDK/*.{h}'
   #s.public_header_files = 'runtime/TFRuntimeManager.h'
  
