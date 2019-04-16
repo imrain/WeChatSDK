@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "WeChatSDK"
+  s.name         = "WeChatSDK184"
   s.version      = "1.8.4"
   s.ios.deployment_target = '11.0'
   s.summary      = "微信SDK"
